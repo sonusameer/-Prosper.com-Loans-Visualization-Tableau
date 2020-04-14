@@ -1,0 +1,226 @@
+
+                   ListingKey     ListingNumber     ListingCreationDate          
+ 17A93590655669644DB4C06:     6   Min.   :      4   Min.   :2005-11-09 20:44:28  
+ 349D3587495831350F0F648:     4   1st Qu.: 400919   1st Qu.:2008-09-19 10:02:14  
+ 47C1359638497431975670B:     4   Median : 600554   Median :2012-06-16 12:37:19  
+ 8474358854651984137201C:     4   Mean   : 627886   Mean   :2011-07-09 08:07:23  
+ DE8535960513435199406CE:     4   3rd Qu.: 892634   3rd Qu.:2013-09-09 19:40:48  
+ 04C13599434217079754AEE:     3   Max.   :1255725   Max.   :2014-03-10 12:20:53  
+ (Other)                :113912                                                  
+  CreditGrade         Term                       LoanStatus   
+        :84984   Min.   :12.00   Current              :56576  
+ C      : 5649   1st Qu.:36.00   Completed            :38074  
+ D      : 5153   Median :36.00   Chargedoff           :11992  
+ B      : 4389   Mean   :40.83   Defaulted            : 5018  
+ AA     : 3509   3rd Qu.:36.00   Past Due (1-15 days) :  806  
+ HR     : 3508   Max.   :60.00   Past Due (31-60 days):  363  
+ (Other): 6745                   (Other)              : 1108  
+               ClosedDate     BorrowerAPR       BorrowerRate     LenderYield     
+                    :58848   Min.   :0.00653   Min.   :0.0000   Min.   :-0.0100  
+ 2014-03-04 00:00:00:  105   1st Qu.:0.15629   1st Qu.:0.1340   1st Qu.: 0.1242  
+ 2014-02-19 00:00:00:  100   Median :0.20976   Median :0.1840   Median : 0.1730  
+ 2014-02-11 00:00:00:   92   Mean   :0.21883   Mean   :0.1928   Mean   : 0.1827  
+ 2012-10-30 00:00:00:   81   3rd Qu.:0.28381   3rd Qu.:0.2500   3rd Qu.: 0.2400  
+ 2013-02-26 00:00:00:   78   Max.   :0.51229   Max.   :0.4975   Max.   : 0.4925  
+ (Other)            :54633   NA's   :25                                          
+ EstimatedEffectiveYield EstimatedLoss   EstimatedReturn  ProsperRating  
+ Min.   :-0.183          Min.   :0.005   Min.   :-0.183   C      :18345  
+ 1st Qu.: 0.116          1st Qu.:0.042   1st Qu.: 0.074   B      :15581  
+ Median : 0.162          Median :0.072   Median : 0.092   A      :14551  
+ Mean   : 0.169          Mean   :0.080   Mean   : 0.096   D      :14274  
+ 3rd Qu.: 0.224          3rd Qu.:0.112   3rd Qu.: 0.117   E      : 9795  
+ Max.   : 0.320          Max.   :0.366   Max.   : 0.284   (Other):12307  
+ NA's   :29084           NA's   :29084   NA's   :29084    NA's   :29084  
+ ProsperRatingCategory  ProsperScore   ListingCategory  BorrowerState  
+        :29084         Min.   : 1.00   Min.   : 0.000   CA     :14717  
+ C      :18345         1st Qu.: 4.00   1st Qu.: 1.000   TX     : 6842  
+ B      :15581         Median : 6.00   Median : 1.000   NY     : 6729  
+ A      :14551         Mean   : 5.95   Mean   : 2.774   FL     : 6720  
+ D      :14274         3rd Qu.: 8.00   3rd Qu.: 3.000   IL     : 5921  
+ E      : 9795         Max.   :11.00   Max.   :20.000          : 5515  
+ (Other):12307         NA's   :29084                    (Other):67493  
+                    Occupation         EmploymentStatus EmploymentStatusDuration
+ Other                   :28617   Employed     :67322   Min.   :  0.00          
+ Professional            :13628   Full-time    :26355   1st Qu.: 26.00          
+ Computer Programmer     : 4478   Self-employed: 6134   Median : 67.00          
+ Executive               : 4311   Not available: 5347   Mean   : 96.07          
+ Teacher                 : 3759   Other        : 3806   3rd Qu.:137.00          
+ Administrative Assistant: 3688                : 2255   Max.   :755.00          
+ (Other)                 :55456   (Other)      : 2718   NA's   :7625            
+ IsBorrowerHomeowner CurrentlyInGroup                    GroupKey     
+ False:56459         False:101218                            :100596  
+ True :57478         True : 12719     783C3371218786870A73D20:  1140  
+                                      3D4D3366260257624AB272D:   916  
+                                      6A3B336601725506917317E:   698  
+                                      FEF83377364176536637E50:   611  
+                                      C9643379247860156A00EC0:   342  
+                                      (Other)                :  9634  
+            DateCreditPulled  CreditScoreRangeLower CreditScoreRangeUpper
+ 2013-12-23 09:38:12:     6   Min.   :  0.0         Min.   : 19.0        
+ 2013-11-21 09:09:41:     4   1st Qu.:660.0         1st Qu.:679.0        
+ 2013-12-06 05:43:16:     4   Median :680.0         Median :699.0        
+ 2014-01-14 20:17:49:     4   Mean   :685.6         Mean   :704.6        
+ 2014-02-09 12:14:41:     4   3rd Qu.:720.0         3rd Qu.:739.0        
+ 2013-09-27 22:04:54:     3   Max.   :880.0         Max.   :899.0        
+ (Other)            :113912   NA's   :591           NA's   :591          
+        FirstRecordedCreditLine CurrentCreditLines OpenCreditLines
+                    :   697     Min.   : 0.00      Min.   : 0.00  
+ 1993-12-01 00:00:00:   185     1st Qu.: 7.00      1st Qu.: 6.00  
+ 1994-11-01 00:00:00:   178     Median :10.00      Median : 9.00  
+ 1995-11-01 00:00:00:   168     Mean   :10.32      Mean   : 9.26  
+ 1990-04-01 00:00:00:   161     3rd Qu.:13.00      3rd Qu.:12.00  
+ 1995-03-01 00:00:00:   159     Max.   :59.00      Max.   :54.00  
+ (Other)            :112389     NA's   :7604       NA's   :7604   
+ TotalCreditLinespast7years OpenRevolvingAccounts OpenRevolvingMonthlyPayment
+ Min.   :  2.00             Min.   : 0.00         Min.   :    0.0            
+ 1st Qu.: 17.00             1st Qu.: 4.00         1st Qu.:  114.0            
+ Median : 25.00             Median : 6.00         Median :  271.0            
+ Mean   : 26.75             Mean   : 6.97         Mean   :  398.3            
+ 3rd Qu.: 35.00             3rd Qu.: 9.00         3rd Qu.:  525.0            
+ Max.   :136.00             Max.   :51.00         Max.   :14985.0            
+ NA's   :697                                                                 
+ InquiriesLast6Months TotalInquiries    CurrentDelinquencies AmountDelinquent  
+ Min.   :  0.000      Min.   :  0.000   Min.   : 0.0000      Min.   :     0.0  
+ 1st Qu.:  0.000      1st Qu.:  2.000   1st Qu.: 0.0000      1st Qu.:     0.0  
+ Median :  1.000      Median :  4.000   Median : 0.0000      Median :     0.0  
+ Mean   :  1.435      Mean   :  5.584   Mean   : 0.5921      Mean   :   984.5  
+ 3rd Qu.:  2.000      3rd Qu.:  7.000   3rd Qu.: 0.0000      3rd Qu.:     0.0  
+ Max.   :105.000      Max.   :379.000   Max.   :83.0000      Max.   :463881.0  
+ NA's   :697          NA's   :1159      NA's   :697          NA's   :7622      
+ DelinquenciesLast7Years PublicRecordsLast10Years PublicRecordsLast12Months
+ Min.   : 0.000          Min.   : 0.0000          Min.   : 0.000           
+ 1st Qu.: 0.000          1st Qu.: 0.0000          1st Qu.: 0.000           
+ Median : 0.000          Median : 0.0000          Median : 0.000           
+ Mean   : 4.155          Mean   : 0.3126          Mean   : 0.015           
+ 3rd Qu.: 3.000          3rd Qu.: 0.0000          3rd Qu.: 0.000           
+ Max.   :99.000          Max.   :38.0000          Max.   :20.000           
+ NA's   :990             NA's   :697              NA's   :7604             
+ RevolvingCreditBalance BankcardUtilization AvailableBankcardCredit
+ Min.   :      0        Min.   :0.000       Min.   :     0         
+ 1st Qu.:   3121        1st Qu.:0.310       1st Qu.:   880         
+ Median :   8549        Median :0.600       Median :  4100         
+ Mean   :  17599        Mean   :0.561       Mean   : 11210         
+ 3rd Qu.:  19521        3rd Qu.:0.840       3rd Qu.: 13180         
+ Max.   :1435667        Max.   :5.950       Max.   :646285         
+ NA's   :7604           NA's   :7604        NA's   :7544           
+  TotalTrades     TradesNeverDelinquent..percentage. TradesOpenedLast6Months
+ Min.   :  0.00   Min.   :0.000                      Min.   : 0.000         
+ 1st Qu.: 15.00   1st Qu.:0.820                      1st Qu.: 0.000         
+ Median : 22.00   Median :0.940                      Median : 0.000         
+ Mean   : 23.23   Mean   :0.886                      Mean   : 0.802         
+ 3rd Qu.: 30.00   3rd Qu.:1.000                      3rd Qu.: 1.000         
+ Max.   :126.00   Max.   :1.000                      Max.   :20.000         
+ NA's   :7544     NA's   :7544                       NA's   :7544           
+ DebtToIncomeRatio         IncomeRange    IncomeVerifiable StatedMonthlyIncome
+ Min.   : 0.000    $25,000-49,999:32192   False:  8669     Min.   :      0    
+ 1st Qu.: 0.140    $50,000-74,999:31050   True :105268     1st Qu.:   3200    
+ Median : 0.220    $100,000+     :17337                    Median :   4667    
+ Mean   : 0.276    $75,000-99,999:16916                    Mean   :   5608    
+ 3rd Qu.: 0.320    Not displayed : 7741                    3rd Qu.:   6825    
+ Max.   :10.010    $1-24,999     : 7274                    Max.   :1750003    
+ NA's   :8554      (Other)       : 1427                                       
+                    LoanKey       TotalProsperLoans TotalProsperPaymentsBilled
+ CB1B37030986463208432A1:     6   Min.   :0.00      Min.   :  0.00            
+ 2DEE3698211017519D7333F:     4   1st Qu.:1.00      1st Qu.:  9.00            
+ 9F4B37043517554537C364C:     4   Median :1.00      Median : 16.00            
+ D895370150591392337ED6D:     4   Mean   :1.42      Mean   : 22.93            
+ E6FB37073953690388BC56D:     4   3rd Qu.:2.00      3rd Qu.: 33.00            
+ 0D8F37036734373301ED419:     3   Max.   :8.00      Max.   :141.00            
+ (Other)                :113912   NA's   :91852     NA's   :91852             
+ OnTimeProsperPayments ProsperPaymentsLessThanOneMonthLate
+ Min.   :  0.00        Min.   : 0.00                      
+ 1st Qu.:  9.00        1st Qu.: 0.00                      
+ Median : 15.00        Median : 0.00                      
+ Mean   : 22.27        Mean   : 0.61                      
+ 3rd Qu.: 32.00        3rd Qu.: 0.00                      
+ Max.   :141.00        Max.   :42.00                      
+ NA's   :91852         NA's   :91852                      
+ ProsperPaymentsOneMonthPlusLate ProsperPrincipalBorrowed
+ Min.   : 0.00                   Min.   :    0           
+ 1st Qu.: 0.00                   1st Qu.: 3500           
+ Median : 0.00                   Median : 6000           
+ Mean   : 0.05                   Mean   : 8472           
+ 3rd Qu.: 0.00                   3rd Qu.:11000           
+ Max.   :21.00                   Max.   :72499           
+ NA's   :91852                   NA's   :91852           
+ ProsperPrincipalOutstanding ScorexChangeAtTimeOfListing
+ Min.   :    0               Min.   :-209.00            
+ 1st Qu.:    0               1st Qu.: -35.00            
+ Median : 1627               Median :  -3.00            
+ Mean   : 2930               Mean   :  -3.22            
+ 3rd Qu.: 4127               3rd Qu.:  25.00            
+ Max.   :23451               Max.   : 286.00            
+ NA's   :91852               NA's   :95009              
+ LoanCurrentDaysDelinquent LoanFirstDefaultedCycleNumber
+ Min.   :   0.0            Min.   : 0.00                
+ 1st Qu.:   0.0            1st Qu.: 9.00                
+ Median :   0.0            Median :14.00                
+ Mean   : 152.8            Mean   :16.27                
+ 3rd Qu.:   0.0            3rd Qu.:22.00                
+ Max.   :2704.0            Max.   :44.00                
+                           NA's   :96985                
+ LoanMonthsSinceOrigination   LoanNumber     LoanOriginalAmount
+ Min.   :  0.0              Min.   :     1   Min.   : 1000     
+ 1st Qu.:  6.0              1st Qu.: 37332   1st Qu.: 4000     
+ Median : 21.0              Median : 68599   Median : 6500     
+ Mean   : 31.9              Mean   : 69444   Mean   : 8337     
+ 3rd Qu.: 65.0              3rd Qu.:101901   3rd Qu.:12000     
+ Max.   :100.0              Max.   :136486   Max.   :35000     
+                                                               
+ LoanOriginationDate           LoanOriginationQuarter
+ Min.   :2005-11-15 00:00:00   Length:113937         
+ 1st Qu.:2008-10-02 00:00:00   Class :character      
+ Median :2012-06-26 00:00:00   Mode  :character      
+ Mean   :2011-07-21 03:18:19                         
+ 3rd Qu.:2013-09-18 00:00:00                         
+ Max.   :2014-03-12 00:00:00                         
+                                                     
+                   MemberKey      MonthlyLoanPayment LP_CustomerPayments
+ 63CA34120866140639431C9:     9   Min.   :   0.0     Min.   :   -2.35   
+ 16083364744933457E57FB9:     8   1st Qu.: 131.6     1st Qu.: 1005.76   
+ 3A2F3380477699707C81385:     8   Median : 217.7     Median : 2583.83   
+ 4D9C3403302047712AD0CDD:     8   Mean   : 272.5     Mean   : 4183.08   
+ 739C338135235294782AE75:     8   3rd Qu.: 371.6     3rd Qu.: 5548.40   
+ 7E1733653050264822FAA3D:     8   Max.   :2251.5     Max.   :40702.39   
+ (Other)                :113888                                         
+ LP_CustomerPrincipalPayments LP_InterestandFees LP_ServiceFees   
+ Min.   :    0.0              Min.   :   -2.35   Min.   :-664.87  
+ 1st Qu.:  500.9              1st Qu.:  274.87   1st Qu.: -73.18  
+ Median : 1587.5              Median :  700.84   Median : -34.44  
+ Mean   : 3105.5              Mean   : 1077.54   Mean   : -54.73  
+ 3rd Qu.: 4000.0              3rd Qu.: 1458.54   3rd Qu.: -13.92  
+ Max.   :35000.0              Max.   :15617.03   Max.   :  32.06  
+                                                                  
+ LP_CollectionFees  LP_GrossPrincipalLoss LP_NetPrincipalLoss
+ Min.   :-9274.75   Min.   :  -94.2       Min.   : -954.5    
+ 1st Qu.:    0.00   1st Qu.:    0.0       1st Qu.:    0.0    
+ Median :    0.00   Median :    0.0       Median :    0.0    
+ Mean   :  -14.24   Mean   :  700.4       Mean   :  681.4    
+ 3rd Qu.:    0.00   3rd Qu.:    0.0       3rd Qu.:    0.0    
+ Max.   :    0.00   Max.   :25000.0       Max.   :25000.0    
+                                                             
+ LP_NonPrincipalRecoverypayments PercentFunded    Recommendations   
+ Min.   :    0.00                Min.   :0.7000   Min.   : 0.00000  
+ 1st Qu.:    0.00                1st Qu.:1.0000   1st Qu.: 0.00000  
+ Median :    0.00                Median :1.0000   Median : 0.00000  
+ Mean   :   25.14                Mean   :0.9986   Mean   : 0.04803  
+ 3rd Qu.:    0.00                3rd Qu.:1.0000   3rd Qu.: 0.00000  
+ Max.   :21117.90                Max.   :1.0125   Max.   :39.00000  
+                                                                    
+ InvestmentFromFriendsCount InvestmentFromFriendsAmount   Investors      
+ Min.   : 0.00000           Min.   :    0.00            Min.   :   1.00  
+ 1st Qu.: 0.00000           1st Qu.:    0.00            1st Qu.:   2.00  
+ Median : 0.00000           Median :    0.00            Median :  44.00  
+ Mean   : 0.02346           Mean   :   16.55            Mean   :  80.48  
+ 3rd Qu.: 0.00000           3rd Qu.:    0.00            3rd Qu.: 115.00  
+ Max.   :33.00000           Max.   :25000.00            Max.   :1189.00  
+                                                                         
+            Results          Rating       CreditScore   
+ Defaulted      :17015   C      :23994   Min.   :  9.5  
+ Past Due       : 2067   B      :19970   1st Qu.:669.5  
+ Current or Paid:94855   D      :19427   Median :689.5  
+                         A      :17866   Mean   :695.1  
+                         E      :13084   3rd Qu.:729.5  
+                         HR     :10443   Max.   :889.5  
+                         (Other): 9153   NA's   :591    
+> 
